@@ -92,6 +92,7 @@ with pace-driven metrics.
 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMTgxN2YzYmItZDY0OC00NzY3LTgxODgtNjYzMzVkZmM1ZjMyIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&embedImagePlaceholder=true&pageName=cdb2f063caf280b05329)
 
 ## Repository Structure
+```
 Beyond_Pace/
 ├── README.md
 ├── notebooks/
@@ -105,3 +106,4 @@ Beyond_Pace/
 ├── dashboard/
 │   └── beyond_pace.pbix
 └── requirements.txt
+```
