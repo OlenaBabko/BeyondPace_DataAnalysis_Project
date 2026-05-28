@@ -61,12 +61,14 @@ Athlete profiles:
 ## Key Findings
 
 **1 out of 10 questions showed no difference between athlete types.**
+
 Distance distribution reflects individual training habits — not the sport itself.
 Everything else confirmed the gap.
 
 ![Distance Distribution](images/Distribution_of_Distance.png)
 
 **Pace variability is the navigation effect in the data.**
+
 fox_1 and fox_2 show pace from 1 to 55 min/km in normal activities —
 not anomalies, but map checks, swamps, climbs, and route decisions.
 not_a_fox_2 shows std = 1.05. Same sport category. Completely different world.
@@ -74,6 +76,7 @@ not_a_fox_2 shows std = 1.05. Same sport category. Completely different world.
 ![Pace vs HR](images/CorrelationAvgPace_AvgHR.png)
 
 **Heart rate runs high — but drops suddenly.**
+
 Navigation-driven athletes operate near maximum HR,
 then stop almost completely to read a map or assess terrain.
 Those drops show up as low-end outliers. Pace-driven athletes don't have them.
@@ -81,6 +84,7 @@ Those drops show up as low-end outliers. Pace-driven athletes don't have them.
 ![HR Distribution](images/Distribution_of_HR.png)
 
 **No strong correlations — and that's the finding.**
+
 Metrics that should be connected aren't.
 Because in navigation-driven sports, a third factor always stands between
 physical effort and measurable output: the decision.
@@ -88,6 +92,7 @@ physical effort and measurable output: the decision.
 ![Correlation Matrix](images/CorrelationMatrix_of_TrainingMetrics.png)
 
 **A weak ML model (R² = 0.117) confirms the thesis.**
+
 Pace and elevation explain only 12% of heart rate variation.
 The model failed to predict — and proved the point.
 
@@ -107,14 +112,15 @@ The model failed to predict — and proved the point.
 
 
 
-## Conclusions :
+## Conclusions
 
-**Navigation-driven sports  are beyond the numbers we're used to tracking.
+Navigation-driven sports  are beyond the numbers we're used to tracking.
 Pace tells you how fast.
 It doesn't tell you what decision you made, what the map said, or what the forest threw at you.
 
 That's what Beyond Pace project set out to show.
-And the data confirmed it.**
+And the data confirmed it.
+
 
 ---
 
