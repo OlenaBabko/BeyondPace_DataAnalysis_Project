@@ -107,7 +107,8 @@ The model failed to predict — and proved the point.
 
 ---
 
-Conclusions :
+## Conclusions :
+
 **Navigation-driven sports  are beyond the numbers we're used to tracking.
 Pace tells you how fast.
 It doesn't tell you what decision you made, what the map said, or what the forest threw at you.
