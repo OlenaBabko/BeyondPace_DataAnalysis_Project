@@ -3,7 +3,7 @@
 
 **Python · Power BI**
 
-![Dashboard page 1](images/page_1_AthleteProfiles.png)
+![Beyond Pace](images/1slide.png)
 
 ## Overview
 Standard running metrics — pace, speed, distance — work well for road runners.
