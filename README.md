@@ -105,6 +105,17 @@ The model failed to predict — and proved the point.
 > **Comparing pace-driven and navigation-driven athletes on the same scale
 > is meaningless — and this dataset shows exactly why.**
 
+---
+
+Conclusions :
+**Navigation-driven sports  are beyond the numbers we're used to tracking.
+Pace tells you how fast.
+It doesn't tell you what decision you made, what the map said, or what the forest threw at you.
+
+That's what Beyond Pace project set out to show.
+And the data confirmed it.**
+
+---
 
 ## Dashboard
 ![Dashboard page 1](images/page_1_AthleteProfiles.png)
