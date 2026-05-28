@@ -60,29 +60,51 @@ Athlete profiles:
 
 ## Key Findings
 
-**Pace variability reveals activity type.**
-Navigation-driven athletes show pace ranging from 1 to 55 min/km within 
-normal activities — not anomalies, but map checks, terrain, and route decisions.
-
-![Pace vs HR](images/CorrelationAvgPace_AvgHR.png)
-
-**Heart rate cannot be predicted from pace and elevation alone.**
-R² = 0.117 confirms that standard running metrics explain only ~12% of HR 
-variation in navigation-driven sports.
-
-**Distance reflects individual habits, not sport type.**
-No shared distance pattern exists across profiles or even within the same 
-activity category.
+**1 out of 10 questions showed no difference between athlete types.**
+Distance distribution reflects individual training habits — not the sport itself.
+Everything else confirmed the gap.
 
 ![Distance Distribution](images/Distribution_of_Distance.png)
 
-**Seasonal patterns are visible — and sport-specific.**
-Navigation-driven athletes show winter drops linked to snow conditions and 
-equipment constraints, not just weather.
+**Pace variability is the navigation effect in the data.**
+fox_1 and fox_2 show pace from 1 to 55 min/km in normal activities —
+not anomalies, but map checks, swamps, climbs, and route decisions.
+not_a_fox_2 shows std = 1.05. Same sport category. Completely different world.
 
-**A weak ML model is a finding, not a failure.**
-It confirms the core thesis: you cannot evaluate navigation-driven athletes 
-with pace-driven metrics.
+![Pace vs HR](images/CorrelationAvgPace_AvgHR.png)
+
+**Heart rate runs high — but drops suddenly.**
+Navigation-driven athletes operate near maximum HR,
+then stop almost completely to read a map or assess terrain.
+Those drops show up as low-end outliers. Pace-driven athletes don't have them.
+
+![HR Distribution](images/Distribution_of_HR.png)
+
+**No strong correlations — and that's the finding.**
+Metrics that should be connected aren't.
+Because in navigation-driven sports, a third factor always stands between
+physical effort and measurable output: the decision.
+
+![Correlation Matrix](images/CorrelationMatrix_of_TrainingMetrics.png)
+
+**A weak ML model (R² = 0.117) confirms the thesis.**
+Pace and elevation explain only 12% of heart rate variation.
+The model failed to predict — and proved the point.
+
+![ML Real vs Predicted](images/ML_Real_vs_PredictetAvgHR.png)
+
+---
+
+> In navigation-driven sports, shorter distance can mean a better route choice.
+> Elevation has no single interpretation — sometimes avoiding a climb saves energy,
+> sometimes cutting straight uphill wins the race.
+> Pace and heart rate are never stable — you slow down to read a map,
+> drop speed to check terrain, scramble up a slope, or wade through a swamp.
+>
+> What we consider "better" in running doesn't always apply here.
+> **Comparing pace-driven and navigation-driven athletes on the same scale
+> is meaningless — and this dataset shows exactly why.**
+
 
 ## Dashboard
 ![Dashboard page 1](images/page_1_AthleteProfiles.png)
