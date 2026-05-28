@@ -105,7 +105,7 @@ The model failed to predict — and proved the point.
 > **Comparing pace-driven and navigation-driven athletes on the same scale
 > is meaningless — and this dataset shows exactly why.**
 
----
+
 
 ## Conclusions :
 
